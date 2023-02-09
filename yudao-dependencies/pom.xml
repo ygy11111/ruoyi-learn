@@ -17,6 +17,8 @@
         <!-- Web 相关 -->
         <knife4j.version>4.0.0</knife4j.version>
         <swagger-annotations.version>1.6.8</swagger-annotations.version>
+        <!-- 工具类相关 -->
+        <hutool.version>5.8.11</hutool.version>
     </properties>
 
     <dependencyManagement>
@@ -69,6 +71,12 @@
                 <groupId>com.ygyniba</groupId>
                 <artifactId>yudao-common</artifactId>
                 <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
 
         </dependencies>

@@ -36,6 +36,18 @@
             <artifactId>jackson-datatype-jsr310</artifactId>
             <scope>provided</scope> <!-- 设置为 provided，只有工具类需要使用到 -->
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <scope>provided</scope> <!-- 设置为 provided，只有工具类需要使用到 -->
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

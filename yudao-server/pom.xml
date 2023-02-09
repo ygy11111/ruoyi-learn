@@ -30,6 +30,11 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>com.ygyniba</groupId>
+            <artifactId>yudao-spring-boot-starter-banner</artifactId>
+            <version>${revision}</version>
+        </dependency>
     </dependencies>
 
     <build>
