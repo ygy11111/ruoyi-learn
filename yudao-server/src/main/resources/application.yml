@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: yudao-server
+
+  profiles:
+    active: local
+
+yudao:
+  info:
+    version: 1.0.0
+    base-package: com.ygyniba.yudao
+  swagger:
+    title: 管理后台
+    description: 提供管理员管理的所有功能
+    version: ${yudao.info.version}
+    base-package: ${yudao.info.base-package}

@@ -1,0 +1,2 @@
+com.ygyniba.yudao.framework.jackson.config.YudaoJacksonAutoConfiguration
+com.ygyniba.yudao.framework.swagger.config.YudaoSwaggerAutoConfiguration
