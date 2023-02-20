@@ -47,7 +47,7 @@ public class YudaoJacksonAutoConfiguration {
 
                 JsonUtils.init(objectMapper);
                 log.info("初始化 jackson 自动配置");
-                return null;
+                return bean;
             }
         };
     }

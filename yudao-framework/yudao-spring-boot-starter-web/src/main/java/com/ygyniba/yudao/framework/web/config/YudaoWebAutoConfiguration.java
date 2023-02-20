@@ -3,6 +3,7 @@ package com.ygyniba.yudao.framework.web.config;
 import com.ygyniba.yudao.framework.common.enums.WebFilterOrderEnum;
 import com.ygyniba.yudao.framework.web.core.handler.GlobalExceptionHandler;
 import com.ygyniba.yudao.framework.web.core.handler.GlobalResponseBodyHandler;
+import com.ygyniba.yudao.framework.web.core.util.WebFrameworkUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -63,6 +64,12 @@ public class YudaoWebAutoConfiguration implements WebMvcConfigurer {
     @Bean
     public GlobalResponseBodyHandler globalResponseBodyHandler() {
         return new GlobalResponseBodyHandler();
+    }
+
+    @Bean
+    @SuppressWarnings("InstantiationOfUtilityClass")
+    public WebFrameworkUtils webFrameworkUtils(WebProperties webProperties) {
+        return new WebFrameworkUtils(webProperties);
     }
 
     // ========== Filter 相关 ==========

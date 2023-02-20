@@ -24,6 +24,8 @@
 	<modules>
 		<module>yudao-common</module>
 		<module>yudao-spring-boot-starter-biz-tenant</module>
+		<module>yudao-spring-boot-starter-security</module>
+		<module>yudao-spring-boot-starter-web</module>
 	</modules>
 
 </project>

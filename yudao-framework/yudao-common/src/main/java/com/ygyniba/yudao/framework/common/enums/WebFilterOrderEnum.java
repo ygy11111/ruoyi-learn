@@ -10,4 +10,5 @@ public interface WebFilterOrderEnum {
 
     int CORS_FILTER = Integer.MIN_VALUE;
 
+    int API_ACCESS_LOG_FILTER = -103; // 需要保证在 RequestBodyCacheFilter 后面
 }

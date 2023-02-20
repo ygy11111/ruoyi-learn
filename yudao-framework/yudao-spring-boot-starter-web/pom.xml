@@ -8,7 +8,6 @@
         <version>${revision}</version>
     </parent>
     <artifactId>yudao-spring-boot-starter-web</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <description>Web 框架，全局异常、API 日志等</description>
     <packaging>jar</packaging>
@@ -44,6 +43,12 @@
             <groupId>io.swagger</groupId>
             <artifactId>swagger-annotations</artifactId>
         </dependency>-->
+        <!-- 业务组件 -->
+        <dependency>
+            <groupId>com.ygyniba</groupId>
+            <artifactId>yudao-module-infra-api</artifactId> <!-- 需要使用它，进行操作日志的记录 -->
+            <version>${revision}</version>
+        </dependency>
     </dependencies>
 
 </project>

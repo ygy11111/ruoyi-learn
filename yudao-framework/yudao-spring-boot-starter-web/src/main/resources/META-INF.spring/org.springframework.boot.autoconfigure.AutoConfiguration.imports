@@ -1,3 +1,4 @@
+com.ygyniba.yudao.framework.apilog.config.YudaoApiLogAutoConfiguration
 com.ygyniba.yudao.framework.jackson.config.YudaoJacksonAutoConfiguration
 com.ygyniba.yudao.framework.swagger.config.YudaoSwaggerAutoConfiguration
 com.ygyniba.yudao.framework.web.config.YudaoWebAutoConfiguration

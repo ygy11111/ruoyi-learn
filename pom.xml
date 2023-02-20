@@ -27,6 +27,7 @@
     <modules>
         <module>yudao-dependencies</module>
         <module>yudao-framework</module>
+        <module>yudao-module-infra</module>
         <module>yudao-module-system</module>
     </modules>
 
