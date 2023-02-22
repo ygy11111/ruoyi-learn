@@ -23,6 +23,11 @@
             <artifactId>yudao-module-system-biz</artifactId>
             <version>${revision}</version>
         </dependency>
+        <dependency>
+            <groupId>com.ygyniba</groupId>
+            <artifactId>yudao-module-infra-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
 
         <!-- spring boot 配置所需依赖 -->
         <dependency>
