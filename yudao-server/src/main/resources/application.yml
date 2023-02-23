@@ -14,3 +14,6 @@ yudao:
     description: 提供管理员管理的所有功能
     version: ${yudao.info.version}
     base-package: ${yudao.info.base-package}
+  web:
+    admin-ui:
+      url: xxxxxxxxxxx
