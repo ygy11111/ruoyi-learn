@@ -21,6 +21,11 @@
             <artifactId>yudao-module-system-api</artifactId>
             <version>${revision}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.ygyniba</groupId>
+            <artifactId>yudao-spring-boot-starter-mybatis</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

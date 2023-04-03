@@ -21,6 +21,9 @@
         <skywalking.version>8.12.0</skywalking.version>
         <!-- 工具类相关 -->
         <hutool.version>5.8.11</hutool.version>
+        <!-- DB相关 -->
+        <druid.version>1.2.15</druid.version>
+        <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
     </properties>
 
     <dependencyManagement>
@@ -70,6 +73,25 @@
                 <artifactId>swagger-annotations</artifactId>
                 <version>${swagger-annotations.version}</version>
             </dependency>-->
+
+            <!-- DB相关 -->
+            <dependency>
+                <groupId>com.ygyniba</groupId>
+                <artifactId>yudao-spring-boot-starter-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
 
             <!-- 监控相关 -->
             <dependency>
